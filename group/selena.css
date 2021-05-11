@@ -1,0 +1,13 @@
+#noLink {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: cyan;
+}
+div {
+    text-align: center;
+}
+.lynxTable {
+    background-color: cadetblue;
+}
