@@ -9,5 +9,9 @@ div {
     text-align: center;
 }
 .lynxTable {
-    background-color: cadetblue;
+    border: 1px solid black;
+    min-width: 300px;
+}
+th {
+    background-color: rgb(187, 187, 187);
 }

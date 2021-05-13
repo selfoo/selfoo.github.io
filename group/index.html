@@ -6,21 +6,51 @@
     <link rel="stylesheet" href="selena.css">
     <style>
         .font {
-            font-size: 200%;
+            font-size: 150%;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h1 {
+            text-align: center;
         }
     </style>
     <!--We removed the nolink, hover, and div tags from style into selena.css-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--The navbar didn't turn out how we wanted, so we added these elements here for now-->
 </head>
 
 <body>
+    <!--Selena,Alex,and Nathan worked on making the navbar-->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="selena.html">Selena's Page</a></li>
+                <li><a href="alex.html">Alex's Page</a></li>
+                <li><a href="nathan.html">Nathan's Page</a></li>
+                <li><a href="katia.html">Katia's Page</a></li>
+    <!--We added everyone's html pages-->
+            </ul>
+        </div>
+    </nav>
+
     <h1>These are images of two lynxes</h1>
     <!--We attempted to center the picture of the lynxes-->
     <div><img src="https://www.w3schools.com/images/w3lynx_200.png" alt="lynx" title="lynx one">
-        <img src="images/w3lynx_200.png" alt="lynx" title="lynx two"></div>
+        <img src="images/w3lynx_200.png" alt="lynx" title="lynx two">
+    </div>
     <!--Selena added the div tag to the images, which centered them-->
     <!--everybody contributed to this section (lines 23-58)-->
-    <h2> <span class="font">Lynx facts</span></h2>
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4" style="background-color:blanchedalmond;"><h2><span class="font">Lynx Facts</span></h2></div>
+        <div class="col-sm-4"></div>
+    </div>
     <!--We added a class attribute to "Lynx facts"-->
     <ul>
         <li>A Lynx is a type of wild cat.</li>
@@ -33,9 +63,7 @@
     <!--removed underline from nat geo link below-->
     <a id="noLink" href="https://www.nationalgeographic.com/animals/mammals/facts/lynx">Here are more lynx facts to
         explore!</a>
-    <div>more stuff</div>
-    <div class="lynxTable" style="text-align: left;">
-        <table>
+        <table class="lynxTable"; margin: 10px; padding: 10px;">
             <tr>
                 <th>Characteristics</th>
                 <th>Lynx</th>
@@ -58,7 +86,6 @@
                 <!--added style tag to extra-->
             </tr>
         </table>
-    </div>
 </body>
 
 </html>
