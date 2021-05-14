@@ -9,11 +9,19 @@
             font-size: 150%;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
+
         h1 {
             text-align: center;
         }
+
+        .center {
+            margin: auto;
+            width: 60%;
+            border: 5px solid blanchedalmond;
+        }
     </style>
     <!--We removed the nolink, hover, and div tags from style into selena.css-->
+    <!--Selena and Katia made the center class attribute-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -34,7 +42,7 @@
                 <li><a href="alex.html">Alex's Page</a></li>
                 <li><a href="nathan.html">Nathan's Page</a></li>
                 <li><a href="katia.html">Katia's Page</a></li>
-    <!--We added everyone's html pages-->
+                <!--We added everyone's html pages-->
             </ul>
         </div>
     </nav>
@@ -48,11 +56,14 @@
     <!--everybody contributed to this section (lines 23-58)-->
     <div class="row">
         <div class="col-sm-4"></div>
-        <div class="col-sm-4" style="background-color:blanchedalmond;"><h2><span class="font">Lynx Facts</span></h2></div>
+        <div class="col-sm-4" style="background-color:blanchedalmond;">
+            <h2><span class="font">Lynx Facts</span></h2>
+        </div>
         <div class="col-sm-4"></div>
     </div>
     <!--We added a class attribute to "Lynx facts"-->
-    <ul>
+    <!--Selena and Katia made and added the center class attribute to the lynx facts list-->
+    <ul class="center">
         <li>A Lynx is a type of wild cat.</li>
         <li>A Lynx life span is 7 years.</li>
         <li>Lynxs are covered with beautiful <strong>thiCCC</strong> fur that keeps them warm during the winter.
@@ -60,32 +71,33 @@
         <li>The Lynx is <em>twice the size</em> of a house cat.</li>
         <li>The rare <span style="color: blue;">blue</span> Lynx is a result of a genetic mutation.</li>
     </ul>
-    <!--removed underline from nat geo link below-->
-    <a id="noLink" href="https://www.nationalgeographic.com/animals/mammals/facts/lynx">Here are more lynx facts to
-        explore!</a>
-        <table class="lynxTable"; margin: 10px; padding: 10px;">
-            <tr>
-                <th>Characteristics</th>
-                <th>Lynx</th>
-                <th>House cat</th>
-            </tr>
-            <tr>
-                <td>Friendliness</td>
-                <td>No</td>
-                <td>Yes</td>
-            </tr>
-            <tr>
-                <td>Fluffy</td>
-                <td>Yes</td>
-                <td>Yes</td>
-            </tr>
-            <tr>
-                <td><strong>ThiCCC</strong></td>
-                <td>Yes</td>
-                <td style="color:blue;">Extra</td>
-                <!--added style tag to extra-->
-            </tr>
-        </table>
+    <!--Selena and Katia added a rounded background to the link, in the future we want to add spacing before and after, since it is cutting into the elements around it-->
+    <div><a id="linkdecor" href="https://www.nationalgeographic.com/animals/mammals/facts/lynx">Here are more lynx facts to
+        explore!</a></div>
+    <!--Selena,Nathan,and Alex made changes in selena.css for the table-->
+    <table class="lynxTable" ; margin: 10px; padding: 10px;">
+        <tr>
+            <th>Characteristics</th>
+            <th>Lynx</th>
+            <th>House cat</th>
+        </tr>
+        <tr>
+            <td>Friendliness</td>
+            <td>No</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>Fluffy</td>
+            <td>Yes</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td><strong>ThiCCC</strong></td>
+            <td>Yes</td>
+            <td style="color:blue;">Extra</td>
+            <!--added style tag to extra-->
+        </tr>
+    </table>
 </body>
 
 </html>
