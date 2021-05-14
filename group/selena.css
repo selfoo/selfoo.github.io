@@ -1,5 +1,8 @@
-#noLink {
+#linkdecor {
     text-decoration: none;
+    border-radius: 30px;
+    background-color: rgb(193, 197, 243);
+    padding: 3px;
 }
 
 a:hover {
@@ -11,6 +14,7 @@ div {
 .lynxTable {
     border: 1px solid black;
     min-width: 300px;
+    margin: auto;
 }
 th {
     background-color: rgb(187, 187, 187);
