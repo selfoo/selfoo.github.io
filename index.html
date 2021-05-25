@@ -22,6 +22,7 @@
     </style>
     <!--We removed the nolink, hover, and div tags from style into selena.css-->
     <!--Selena and Katia made the center class attribute-->
+    <!--Mark's Comment 5/16: Move the Bootstrap includes to before any other style blocks or links, so above line 6.-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -33,10 +34,11 @@
 <body>
     <!--Selena,Alex,and Nathan worked on making the navbar-->
     <nav class="navbar navbar-inverse">
+        <!--Mark's Comment 5/16: I *think* this container-fluid div is unnecessary, but it does appear to be adding a margin to the left so maybe that's what you wanted...-->
         <div class="container-fluid">
             <div class="navbar-header">
             </div>
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav"><!--Mark's Comment 5/16: List items within a navbar should have the nav-item class on them.-->
                 <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="selena.html">Selena's Page</a></li>
                 <li><a href="alex.html">Alex's Page</a></li>
@@ -48,7 +50,7 @@
     </nav>
 
     <h1>These are images of two lynxes</h1>
-    <!--We attempted to center the picture of the lynxes-->
+    <!--We attempted to center the picture of the lynxes--><!--Mark's Comment 5/16: It looks like you did this by using the text-align property in the div element, which I'm actually surprised works since it's usually used for text not images! But maybe since the two images are within the div it works? Normally, for images, you'd want to do something like make them be displayed as a block element (i.e., an element that by default doesn't allow anything next to it horizontally) and then add margin: auto; as another property (like you did with the unordered list of lynx facts below).-->
     <div><img src="https://www.w3schools.com/images/w3lynx_200.png" alt="lynx" title="lynx one">
         <img src="images/w3lynx_200.png" alt="lynx" title="lynx two">
     </div>
@@ -75,6 +77,7 @@
     <div><a id="linkdecor" href="https://www.nationalgeographic.com/animals/mammals/facts/lynx">Here are more lynx facts to
         explore!</a></div>
     <!--Selena,Nathan,and Alex made changes in selena.css for the table-->
+    <!--Mark's Comment 5/16: Something's weird with line 80. I think maybe a style="" attribute was deleted, which is where you'd put the margin and padding properties. Also, the semicolon should be right after lynxTable before the closing quote.-->
     <table class="lynxTable" ; margin: 10px; padding: 10px;">
         <tr>
             <th>Characteristics</th>
