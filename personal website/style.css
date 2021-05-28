@@ -1,0 +1,24 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    box-shadow: 0 .5rem .5rem rgb(0,0,0, .1);
+    z-index: 1;
+}
+.nav-item {
+    padding: .5rem;
+}
+.nav-link {
+    color: #383636 !important;
+}
+.nav-link.active,
+.nav-link:hover {
+    color: #7472d3 !important;
+}
+h1 {
+    text-align: center;
+}
