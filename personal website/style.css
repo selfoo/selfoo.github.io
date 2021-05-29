@@ -21,4 +21,12 @@ body {
 }
 h1 {
     text-align: center;
+    font-stretch: condensed;
+    padding-top: 2%;
+}
+h2 {
+    text-align: center;
+}
+p {
+    font-size: 1.5rem;
 }
