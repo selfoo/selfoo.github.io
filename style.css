@@ -29,6 +29,7 @@ h2 {
 }
 p {
     font-size: 1.5rem;
+    display: inline-block;
 }
 .work {
     display: block;
@@ -69,7 +70,9 @@ p {
     margin-top: 1%;
     margin-bottom: 1%;
     font-size: 2.5rem;
+    font-weight: bolder;
 }
 .bigheading {
     font-size: 4rem;
+    font-weight: bold;
 }
